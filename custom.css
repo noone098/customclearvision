@@ -1,4 +1,20 @@
 
+/**
+ * @name ClearVision
+ * @author Aotrix
+ * @version Custom 6 
+ * @description A custom version of the
+ * @source https://github.com/ClearVision/v6
+ * @website https://clearvision.gitlab.io/join
+ */
+
+/* IMPORT CSS */
+@import url(https://clearvision.gitlab.io/v6/main.css);
+
+/* IMPORT FIXES (temporary) */
+@import url(https://leafyluigi.github.io/CVv6-CustomCSS/Custom-CSS.css);
+
+/* SETTINGS */
 :root {
 
 	/* ACCENT COLORS */
