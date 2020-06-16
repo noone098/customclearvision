@@ -1,9 +1,8 @@
-
 /**
  * @name ClearVision
- * @author Aotrix
- * @version Custom 6 
- * @description A custom version of the
+ * @author Zerthox
+ * @version 6 BETA
+ * @description Public BETA for ClearVision v6.
  * @source https://github.com/ClearVision/v6
  * @website https://clearvision.gitlab.io/join
  */
@@ -18,8 +17,8 @@
 :root {
 
 	/* ACCENT COLORS */
-	--main-color: #8c00ff; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
-	--hover-color: #1e63b3; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+	--main-color: #8c09f7; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+	--hover-color: #c70dec; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
 	--success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
 	--danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
 
@@ -57,7 +56,7 @@
 	/* HOME BUTTON ICON */
 	--home-icon: url(https://cdn.discordapp.com/attachments/579729942565093418/722372439954292746/2iiE.gif); /* home button icon (link must be HTTPS) [default: url(https://clearvision.gitlab.io/icons/discord.svg)]*/
 	--home-position: center; /* home button icon position [default: center] */
-	--home-size: 60px; /* home button icon size [default: 40px] */
+	--home-size: 40px; /* home button icon size [default: 40px] */
 	
 	/* MODAL BACKDROP */
 	--backdrop-overlay: rgba(0, 0, 0, 0.8); /* modal backdrop overlay color/gradient [default: rgba(0, 0, 0, 0.8)] */
@@ -102,5 +101,3 @@
 	--user-modal-sepia: var(--background-sepia); /* user modal background sepia (0 - 100%) [default: var(---background-sepia)] */
 	--user-modal-blur: calc(var(--background-blur) + 3px); /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
 }
-
-
